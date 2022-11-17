@@ -17,7 +17,7 @@ body {
 }
 
 #header .header--img1 {
-  margin-top: 50px;
+  margin-top: 51px;
 }
 #header .header--menu {
   color: black;
@@ -28,6 +28,18 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 40%;
+}
+
+#instant .instant--text {
+  font-size: 30px;
+  margin-top: 200px;
+  padding: 10px;
+}
+#instant .instant--img1 {
+  position: absolute;
+  left: 850px;
+  top: 70px;
+  font-size: 10px;
 }
 
 #terms {
