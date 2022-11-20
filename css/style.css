@@ -29,6 +29,9 @@ body {
   justify-content: space-between;
   width: 40%;
 }
+#header .header {
+  margin-top: 50px;
+}
 
 #instant .instant--text {
   font-size: 30px;
@@ -160,6 +163,42 @@ body {
 #works .works--give {
   color: #31C5A1;
   font-size: 40px;
+}
+
+#download {
+  background: #31C5A1;
+}
+#download .download {
+  text-align: center;
+}
+#download .download--h1 {
+  color: white;
+}
+
+#footer .footer {
+  margin: 90px 50px;
+  display: flex;
+}
+#footer .footer--bl {
+  display: flex;
+}
+#footer .footer--bl--office {
+  margin: 5px 50px;
+}
+#footer .footer--bl--office--p {
+  margin-bottom: 5px;
+}
+#footer .footer--bl--contact {
+  margin: 5px 50px;
+}
+#footer .footer--bl--contact--p {
+  margin-bottom: 10px;
+}
+#footer .footer--bl--power {
+  margin: 5px 50px;
+}
+#footer .footer--bl--power--p {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

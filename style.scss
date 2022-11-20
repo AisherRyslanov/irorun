@@ -16,8 +16,16 @@
       justify-content: space-between;
       width: 40%;
     }
+
   }
+
+  .header {
+    margin-top:50px ;
+  }
+
+
 }
+
 
 #instant {
   .instant {
@@ -169,12 +177,39 @@
 }
 
 #download {
-
+  background: #31C5A1;
   .download {
+    text-align: center;
+    &--h1{
+      color: white;
+    }
   }
 }
 
 #footer {
   .footer {
+    margin: 90px 50px;
+    display: flex;
+    &--bl{
+      display: flex;
+      &--office{
+        margin: 5px 50px;
+        &--p{
+          margin-bottom: 5px;
+        }
+      }
+      &--contact{
+        margin: 5px 50px;
+        &--p{
+          margin-bottom: 10px;
+        }
+      }
+      &--power{
+        margin: 5px 50px;
+        &--p{
+          margin-bottom: 10px;
+        }
+      }
+    }
   }
 }
